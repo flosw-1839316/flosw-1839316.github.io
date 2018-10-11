@@ -1,0 +1,33 @@
+body {
+    background-color: gold;
+}
+
+.font1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font2 {
+    font-family: cursive, 'Comic Sans';
+}
+
+.transparant {
+    opacity: .5;
+}
+
+.float {
+    float: right;
+}
+
+.resizedImg {
+    width: 50px;
+    height: 50px;
+}
+
+.marginImg {
+    margin: 20px;
+}
+
+.border {
+    border-style: dotted;
+    border-radius: 5px;
+}
