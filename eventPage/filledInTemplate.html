@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>I Want To Do Something Tonight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="nav">
+        <p><select><option value="1"></option><option value="2">My friend and I</option></select> want to do <select><option></option></select> <select><option></option></select> in <button></button></p>
+    </div>
+    <hr/>
+    <div class="event">
+        <div class="right">
+            <h1 class="title">[event.Name]</h1>
+            <span class="description">[event.Description]</span>
+            <br>
+            <table>
+                <tr>
+                    <td>Price: </td>
+                    <td>$ [event.Price * numOfPeople] ($[event.Price] per person)</td>
+                </tr>
+                <tr>
+                    <td>Date and Times:</td>
+                    <td>[event.DateAndTimes]</td>
+                </tr>
+                <tr>
+                    <td>Website:</td>
+                    <td><a href="[event.Website]">[event.Website]</a></td>
+                </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>[begin loop]<a href"[event.SocialMedia.URL]">[event.SocialMedia.Username]</a>[end loop]</td>
+                </tr>
+            </table>
+        </div>
+        <div class="left">
+            <img class="eventImg" src="[event.Image]">
+        </div>
+        <div class="bottom">
+            <hr>
+            <button class="bottomLeft">Something else...</button>
+            <button class="bottomRight">Yes, this!</button>
+        </div>
+    </div>
+</body>
+</html>

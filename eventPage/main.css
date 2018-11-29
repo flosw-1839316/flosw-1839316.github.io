@@ -1,0 +1,41 @@
+.nav {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.title {
+    text-align: right;
+}
+
+.description {
+    text-align: right;
+    width: 25%;
+}
+
+.eventImg {
+    width: 25%;
+}
+
+.bottom {
+    width:100%;
+    bottom:0;
+    position: fixed;
+}
+
+.bottomRight {
+    bottom:0;
+    right:0;
+    position: absolute;
+}
+
+.bottomLeft {
+    bottom:0;
+    left:0;
+}
